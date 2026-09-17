@@ -44,7 +44,7 @@ Bienvenido a mi repositorio de resoluciones (*writeups*) de retos **Capture The 
 
 ## 🛠️ Herramientas Frecuentes
 
-- **Reconocimiento & Escaneo:** `nmap`, `gobuster`, `ffuf`, `dirb`, `wfuzz`
+- **Reconocimiento & Escaneo:** `nmap`, `gobuster`, `ffuf`, `dirb`, `wfuzz`, `wpscan`
 - **Explotación & Web:** `Burp Suite`, `sqlmap`, `Metasploit`, `File upload`, `hydra`
 - **Reversa & Binary Exploitation:** COMPLETAR!!!
 - **Privilege Escalation:** `linpeas.sh`
