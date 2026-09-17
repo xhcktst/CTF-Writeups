@@ -9,7 +9,7 @@ Bienvenido a mi repositorio de resoluciones (*writeups*) de retos **Capture The 
 
 | Plataforma | Perfil / Rango | Máquinas / Retos Resueltos |
 | :--- | :--- | :--- |
-| **TryHackMe** | [![THM Profile](https://tryhackme-badges.s3.amazonaws.com/hcktst.png)](https://tryhackme.com/p/hcktst) | X Salas |
+| **TryHackMe** | [@hcktst](https://tryhackme.com/p/hcktst) | X Salas |
 | **HackMyVM** | [@HckTest](https://hackmyvm.eu/public/?u=HckTest) | X |
 | **Vulnyx** | [@tu-usuario](https://vulnyx.com/) | X |
 
