@@ -44,10 +44,10 @@ Bienvenido a mi repositorio de resoluciones (*writeups*) de retos **Capture The 
 
 ## 🛠️ Herramientas Frecuentes
 
-- **Reconocimiento & Escaneo:** `nmap`, `rustscan`, `gobuster`, `ffuf`
-- **Explotación & Web:** `Burp Suite`, `sqlmap`, `Metasploit`
-- **Reversa & Binary Exploitation:** `GDB`, `pwntools`, `Ghidra`
-- **Privilege Escalation:** `linpeas.sh`, `winpeas.exe`
+- **Reconocimiento & Escaneo:** `nmap`, `gobuster`, `ffuf`, `dirb`, `wfuzz`
+- **Explotación & Web:** `Burp Suite`, `sqlmap`, `Metasploit`, `File upload`, `hydra`
+- **Reversa & Binary Exploitation:** COMPLETAR!!!
+- **Privilege Escalation:** `linpeas.sh`
 
 ---
 
