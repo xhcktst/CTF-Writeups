@@ -17,20 +17,28 @@ Bienvenido a mi repositorio de resoluciones (*writeups*) de retos **Capture The 
 
 ## 🗂️ Índice de Writeups
 
-### 📦 Hack The Box
-
-| Nombre | Sistema Operativo | Dificultad | Categorías Principales | Writeup |
-| :--- | :---: | :---: | :--- | :---: |
-| **Lame** | 🐧 Linux | Easy | SMB, Samba 3.0.20, Distcc | [Leer Writeup](./HackTheBox/Easy/Lame) |
-| **Blue** | 🪟 Windows | Easy | EternalBlue, MS17-010 | [Leer Writeup](./HackTheBox/Easy/Blue) |
-
----
-
 ### 🦈 TryHackMe
 
 | Nombre de la Sala | Dificultad | Categorías Principales | Writeup |
 | :--- | :---: | :--- | :---: |
 | **OWASP Top 10** | Easy | Web, SQLi, XSS, Command Injection | [Leer Writeup](./TryHackMe/Web/OWASP_Top_10) |
+
+---
+
+### 🖥️ HackMyVM
+
+| Máquina | Sistema Operativo | Dificultad | Temas / Vector de Ataque | Writeup |
+| :--- | :---: | :---: | :--- | :---: |
+| **MachineName** | 🐧 Linux | Easy | Web, SUID binaries, Capabilities | [Leer Writeup](./HackMyVM/Easy/MachineName) |
+| **AnotherVM** | 🐧 Linux | Medium | WordPress, LFI, Cronjobs | [Leer Writeup](./HackMyVM/Medium/AnotherVM) |
+
+---
+
+### 🛡️ Vulnyx
+
+| Máquina | Sistema Operativo | Dificultad | Temas / Vector de Ataque | Writeup |
+| :--- | :---: | :---: | :--- | :---: |
+| **ExampleVM** | 🐧 Linux | Easy | SQLi, Abuso de Sudoers | [Leer Writeup](./Vulnyx/Easy/ExampleVM) |
 
 ---
 
