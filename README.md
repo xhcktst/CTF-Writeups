@@ -9,9 +9,9 @@ Bienvenido a mi repositorio de resoluciones (*writeups*) de retos **Capture The 
 
 | Plataforma | Perfil / Rango | Máquinas / Retos Resueltos |
 | :--- | :--- | :--- |
-| **Hack The Box** | [![HTB Profile](https://www.hackthebox.eu/badge/image/123456)](https://app.hackthebox.com/profile/123456) | X Máquinas |
 | **TryHackMe** | [![THM Profile](https://tryhackme-badges.s3.amazonaws.com/tu-usuario.png)](https://tryhackme.com/p/tu-usuario) | X Salas |
-| **PicoCTF** | @tu-usuario | X Retos |
+| **HackMyVM** | [@HckTest](https://hackmyvm.eu/profile/?user=hcktest) | X |
+| **Vulnyx** | [@tu-usuario](https://vulnyx.com/) | X |
 
 ---
 
