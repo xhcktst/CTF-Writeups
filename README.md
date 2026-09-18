@@ -11,7 +11,7 @@ Bienvenido a mi repositorio de resoluciones (*writeups*) de retos **Capture The 
 | :--- | :--- | :--- |
 | **TryHackMe** | [@hcktst](https://tryhackme.com/p/hcktst) | X Salas |
 | **HackMyVM** | [@HckTest](https://hackmyvm.eu/public/?u=HckTest) | X |
-| **Vulnyx** | [@tu-usuario](https://vulnyx.com/) | X |
+| **Vulnyx** | (https://vulnyx.com/) | X |
 
 ---
 
