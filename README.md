@@ -1,56 +1,69 @@
 # CTF-Writeups
 # 🚩 CTF Writeups & Security Research
 
-Bienvenido a mi repositorio de resoluciones (*writeups*) de retos **Capture The Flag (CTF)** y plataformas de ciberseguridad. Aquí archivo el proceso paso a paso, metodologías y scripts utilizados para resolver máquinas y retos.
+Welcome to my cybersecurity repository dedicated to **Capture The Flag (CTF)** writeups, machine walkthroughs, and security research. Here I document step-by-step methodologies, vulnerability analysis, exploitation scripts, and technical remediation reports.
 
 ---
 
-## 📊 Estadísticas de Plataformas
+## 📊 Platform Statistics
 
-| Plataforma | Perfil / Rango | Máquinas / Retos Resueltos |
+| Platform | Profile / Rank | Solved Machines / Rooms |
 | :--- | :--- | :--- |
-| **TryHackMe** | [@hcktst](https://tryhackme.com/p/hcktst) | X Salas |
+| **TryHackMe** | [@hcktst](https://tryhackme.com/p/hcktst) | X Rooms |
 | **HackMyVM** | [@HckTest](https://hackmyvm.eu/public/?u=HckTest) | X |
-| **Vulnyx** | (https://vulnyx.com/) | X |
+| **Vulnyx** | | X |
 
 ---
 
-## 🗂️ Índice de Writeups
+## 📊 Writeup Structure
+
+Each machine folder contains two core documents:
+- **`README.md` (Writeup):** Step-by-step walkthrough detailing initial access, exploitation, and privilege escalation.
+- **`MITIGATIONS.md` (Mitigations Report):** Hardening recommendations and technical fixes for the identified vulnerabilities.
+
+| Document Type | Description |
+| :--- | :--- |
+| **Writeup (`README.md`)** | Detailed technical analysis and exploitation flow |
+| **Mitigations (`MITIGATIONS.md`)** | Security recommendations and remediation steps |
+
+---
+
+## 🗂️ Writeups Index
 
 ### 🦈 TryHackMe
 
-| Nombre de la Sala | Dificultad | Categorías Principales | Writeup |
-| :--- | :---: | :--- | :---: |
-| **OWASP Top 10** | Easy | Web, SQLi, XSS, Command Injection | [Leer Writeup](./TryHackMe/Web/OWASP_Top_10) |
+| Room Name | Difficulty | Main Categories | Writeup | Mitigations |
+| :--- | :---: | :--- | :---: | :---: |
+| **OWASP Top 10** | Easy | Web, SQLi, XSS, Command Injection | [Read Writeup](./TryHackMe/Web/OWASP_Top_10) | [Read Mitigations](./TryHackMe/Web/OWASP_Top_10/MITIGATIONS.md) |
 
 ---
 
 ### 🖥️ HackMyVM
 
-| Máquina | Sistema Operativo | Dificultad | Temas / Vector de Ataque | Writeup |
-| :--- | :---: | :---: | :--- | :---: |
-| **MachineName** | 🐧 Linux | Easy | Web, SUID binaries, Capabilities | [Leer Writeup](./HackMyVM/Easy/MachineName) |
-| **AnotherVM** | 🐧 Linux | Medium | WordPress, LFI, Cronjobs | [Leer Writeup](./HackMyVM/Medium/AnotherVM) |
+| Machine | Operating System | Difficulty | Topics / Attack Vector | Writeup | Mitigations |
+| :--- | :---: | :---: | :--- | :---: | :---: |
+| **MachineName** | 🐧 Linux | Easy | Web, SUID binaries, Capabilities | [Read Writeup](./HackMyVM/Easy/MachineName) | [Read Mitigations](./HackMyVM/Easy/MachineName/MITIGATIONS.md) |
+| **AnotherVM** | 🐧 Linux | Medium | WordPress, LFI, Cronjobs | [Read Writeup](./HackMyVM/Medium/AnotherVM) | [Read Mitigations](./HackMyVM/Medium/AnotherVM/MITIGATIONS.md) |
 
 ---
 
 ### 🛡️ Vulnyx
 
-| Máquina | Sistema Operativo | Dificultad | Temas / Vector de Ataque | Writeup |
-| :--- | :---: | :---: | :--- | :---: |
-| **ExampleVM** | 🐧 Linux | Easy | SQLi, Abuso de Sudoers | [Leer Writeup](./Vulnyx/Easy/ExampleVM) |
+| Machine | Operating System | Difficulty | Topics / Attack Vector | Writeup | Mitigations |
+| :--- | :---: | :---: | :--- | :---: | :---: |
+| **ExampleVM** | 🐧 Linux | Easy | SQLi, Sudoers Abuse | [Read Writeup](./Vulnyx/Easy/ExampleVM) | [Read Mitigations](./Vulnyx/Easy/ExampleVM/MITIGATIONS.md) |
 
 ---
 
-## 🛠️ Herramientas Frecuentes
+## 🛠️ Frequently Used Tools
 
-- **Reconocimiento & Escaneo:** `nmap`, `gobuster`, `ffuf`, `dirb`, `wfuzz`, `wpscan`
-- **Explotación & Web:** `Burp Suite`, `sqlmap`, `Metasploit`, `File upload`, `hydra`
-- **Reversa & Binary Exploitation:** COMPLETAR!!!
+- **Reconnaissance & Scanning:** `nmap`, `gobuster`, `ffuf`, `dirb`, `wfuzz`, `wpscan`
+- **Exploitation & Web:** `Burp Suite`, `sqlmap`, `Metasploit`, `File upload`, `hydra`
+- **Reverse Engineering & Binary Exploitation:** TO COMPLETE!!!
 - **Privilege Escalation:** `linpeas.sh`
 
 ---
 
-## ⚠️ Disclaimer / Aviso Legal
+## ⚠️ Legal Disclaimer
 
-Todos los writeups y scripts publicados en este repositorio se realizan con fines exclusivamente **educativos y de investigación de seguridad**. Las pruebas han sido ejecutadas en entornos controlados y autorizados (plataformas de CTF). Nunca utilices estas técnicas en sistemas sin autorización explícita.
+All writeups, code snippets, and remediation reports in this repository are published exclusively for **educational purposes and authorized security research**. All tests were conducted in controlled environments and authorized lab platforms. Never use these techniques on systems without explicit authorization.
