@@ -1,6 +1,6 @@
 # Writeup Machine Canto from HackMyVM
 
-### Reconissance
+# Reconissance
 
 ##### Nmap
 
@@ -14,13 +14,13 @@ None
 ### Web Analysis
 
 Web seems not to contain anything special, let's analyze with some tools.
-##### Fuzzing web
+#### Fuzzing web
 
 Fuzzing the web does not find anything interesting beyond the typical WordPress paths:
 
 ![](./assets/Canto_1.png)
 
-##### Wpscan y SSH
+#### Wpscan y SSH
 
 We enumerate users and plugins with `wpscan --url http://[machine IP] --enumerate u,vp` There are no vulnerable plugins, but we found a user: erik. We are going to simultaneously attack the SSH port with Hydra as well as wordpress with WPScan:
 
@@ -124,7 +124,7 @@ Now we can access the flag:
 
 ![](./assets/Canto_7.png)
 
-### Privilege Escalation
+# Privilege Escalation
 
 We check if `erik` can execute anything as superuser with `sudo -l` and see that he can:
 
