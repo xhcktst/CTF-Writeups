@@ -1,3 +1,4 @@
+# Writeup Machine BaseMe from HackMyVM
 # Reconnaissance
 
 ### Nmap
@@ -19,8 +20,6 @@ On the website, there is only a single text string.
 If we inspect the source code we find interesting comments:
 
 ![](./assets/BaseMe_3.png)
-
-Puede hacer referencia al diccionario rockyou.txt?
 
 The text looks encoded, we can find online several tools to check this and we find a message encoded in Base64. We just need to decode it, for that we will save the following text in a file and then decode it:
 
