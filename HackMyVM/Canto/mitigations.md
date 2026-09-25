@@ -1,11 +1,11 @@
 # Mitigations 🔐
 
 For this specific scenario, there are several key configuration fixes that would have prevented this attack:
-##### 1) Correct update policy 💾
+### 1) Correct update policy 💾
 The initial flaw exploited was an outdated plugin version that contained known vulnerabilities. Implementing a proper update policy for WordPress core, plugins, and themes would have mitigated this issue. 
 
 **Recommendation**: Establish a centralized update workflow or enable automatic updates. However, keep in mind that automatic updates can occasionally introduce breaking changes or compatibility issues. Therefore, it is strongly recommended to maintain a regular backup schedule and, ideally, test updates in a staging environment before applying them to production. You can find more details on how to configure automatic updates in this official [WordPress article.](https://wordpress.org/documentation/article/plugins-themes-auto-updates/) 
-##### 2) Properly manage sensitive information 👁️
+### 2) Properly manage sensitive information 👁️
 We gained access as the user "erik" because the password was stored in plain text within a file that had read permissions for everyone. Storing passwords in plain text files is NOT recommended under any circumstances. Files containing sensitive information should be restricted so that only authorized users can access them. 
 
 **Recommendation**: Implement a dedicated password manager for credential handling. This not only facilitates storing, retrieving, and managing strong passwords, but many password managers also enforce organizational password policies and provide alerts for periodic password rotation. 
@@ -38,7 +38,7 @@ chmod 740 [filename]
 
 This grants full permissions to root and read-only access to Erik, while restricting all other users.
 
-##### 3) Sudo permissions 👮‍♂️
+### 3) Sudo permissions 👮‍♂️
 We escalated privileges to root due to a misconfigured sudo entry with the NOPASSWD directive. Erik was permitted to run "cpulimit" as root without providing credentials, allowing us to exploit a GTFOBins vector to spawn a root shell.
 
 **Recommendation**: 

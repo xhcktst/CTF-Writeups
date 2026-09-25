@@ -1,6 +1,6 @@
 # Writeup Machine Canto from HackMyVM
 
-# Reconissance
+# Reconnaissance
 
 ##### Nmap
 
