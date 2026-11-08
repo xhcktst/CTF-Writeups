@@ -11,7 +11,7 @@ The main weakness that allowed the attack was the availability of sensitive info
 // $un=$_POST['username']; 
 // $pw=$_POST['password']; 
 // 
-// if ($un=='ftpuser' && $pw=='B0ss_B!TcH') { 
+// if ($un=='ft*****' && $pw=='B0s*******') { 
 // echo "welcome" 
 // exit(); 
 // } 
@@ -59,4 +59,4 @@ Before the fix:
 
 After fixing the script:
 
-![[Captura de pantalla 2026-11-08 a las 21.23.30.png]]
+![](./assets/Pwned_13.png)
